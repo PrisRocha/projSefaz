@@ -1,0 +1,23 @@
+package JavaBasicoSefaz;
+
+import java.util.Scanner;
+
+public class EntradaSaidaDados {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Digite o seu primeiro Nome:");
+
+		String nome1 = scan.next();
+
+		System.out.println("Digite o seu Sobrenome:");
+
+		String nome2 = scan.next();
+
+		System.out.println("Olá," + "/n" + nome1  + nome2 + "! Bem-vindo ao curso de Java, Qualiti Innivate Learning.");
+
+	}
+
+}

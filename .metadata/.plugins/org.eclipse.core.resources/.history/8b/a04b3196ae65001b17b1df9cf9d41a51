@@ -1,0 +1,32 @@
+package ExerciciosAula15;
+
+import java.util.Scanner;
+
+public class Exer10 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner (System.in);
+
+		System.out.println("Entre com M - para Matutino, V - para verspertino, N - para Noturno");
+		
+		String periodo = scan.next();
+		
+		if (periodo.equalsIgnoreCase("m")){
+			
+			System.out.println("Bom dia!");
+			
+		} else if (periodo.equalsIgnoreCase("v")){
+			
+			System.out.println("Boa tarde!");
+		
+		} else if (periodo.equalsIgnoreCase("n")){
+			
+			System.out.println("Boa Noite!");
+			
+		}
+
+		
+	}
+
+}

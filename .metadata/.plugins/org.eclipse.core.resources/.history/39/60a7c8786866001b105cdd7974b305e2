@@ -1,0 +1,27 @@
+package JavaBasicoSefaz;
+
+import java.util.Scanner;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Digite o seu Nome:");
+		
+		String nome = scan.nextLine();
+		
+		System.out.println("Digite o ano do seu Nascimento:");
+		
+		
+		int anoNasc = scan.nextInt();
+		int idade = 2021 - anoNasc;
+		int idadeMaior = (idade >= 18) ? 1 : 2;
+			
+		System.out.println("Nome:" + nome + "\r\n" + "Idade:" + idade);
+
+		
+	}
+
+}

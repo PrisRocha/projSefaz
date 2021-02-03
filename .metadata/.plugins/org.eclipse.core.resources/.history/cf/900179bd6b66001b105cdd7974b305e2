@@ -1,0 +1,25 @@
+package JavaBasicoSefaz;
+
+import java.util.Scanner;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Digite o seu Nome:");
+		String nome = scan.nextLine();
+
+		System.out.println("Digite o ano do seu Nascimento:");
+		int anoNasc = scan.nextInt();
+
+		Calendar cal = GregorianCalendar.getInstance();
+		int idade = (cal.get(Calendar.YEAR) - anoNasc);
+		String maiorMenor = (idade >= 18) ? "Maior de Idade" : "Menor de Idade";
+
+	}
+
+}
