@@ -3,7 +3,7 @@ package OrientacaoObjetos;
 public class ContaCorrente {
 	
 	String numero;
-	String aagencia;
+	String agencia;
 	boolean especial;
 	double limiteEspecial;
 	double saldo;

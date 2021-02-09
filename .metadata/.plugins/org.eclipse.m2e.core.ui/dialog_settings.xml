@@ -62,6 +62,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\SEFAZ\HelloWorldJavaEE"/>
+			<item value="C:\SEFAZ\wildfly-22.0.0.Final"/>
 			<item value="C:\Users\maria.rocha\Documents\Sefaz"/>
 			<item value="C:\Users\maria.rocha\Documents\projetoConclusaoCurso"/>
 			<item value="C:\Users\maria.rocha\Documents\professor-allocation"/>

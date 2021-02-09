@@ -7,12 +7,12 @@ public class TesteContaCorrente {
 		ContaCorrente conta = new ContaCorrente();
 		
 		conta.numero = "123";
-		conta.aagencia = "1234";
+		conta.agencia = "1234";
 		conta.especial = true;
-		conta.limiteEspecial = 100;
-		conta.saldo = -5;
+		conta.limiteEspecial = 500;
+		conta.saldo = -10;
 		
-		System.out.println("Saldo da conta:" + conta.saldo);
+		System.out.println("Saldo da conta:" + conta.numero + "=" + conta.saldo);
 		
 	}
 

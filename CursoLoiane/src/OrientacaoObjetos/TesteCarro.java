@@ -6,8 +6,8 @@ public class TesteCarro {
 		
 		Carro van = new Carro();
 		// Carro() { } mesma coisa que instanciar a classe
-		van.marca = "fiat";
-		van.modelo = "ducato";
+		van.marca = "Fiat";
+		van.modelo = "Ducato";
 		van.numPassageiros = "10";
 		van.capCombustivel = 100;
 		van.consumoCombustivel = 0.2;

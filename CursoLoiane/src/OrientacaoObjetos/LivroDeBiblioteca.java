@@ -4,7 +4,7 @@ public class LivroDeBiblioteca {
 
 	String nome;
 	String autor;
-	int paginas;
+	int qtdPaginas;
 	int anoLancamento;
 	String isbn;
 	
